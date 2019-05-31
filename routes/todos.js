@@ -8,8 +8,10 @@ router.get('/new', todosCtrl.new);
 router.post('/', todosCtrl.create);
 router.delete('/:idx', todosCtrl.delete);
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+
+
+// router.get('/index', function(req, res, next) {
+//   res.send('respond with a resource');
+// });
 
 module.exports = router;
